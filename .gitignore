@@ -1,2 +1,6 @@
 # binary files
 *.out
+
+
+# Vscode files
+.vscode/

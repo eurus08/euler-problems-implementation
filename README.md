@@ -6,4 +6,5 @@ This repo contain my implementation of the Euler Problem published by [Project E
 * These implementation avoids the use of arrays when possible to save memory
 * Algorithms used in these implementation may not be the most efficient but should be able to find the results in reasonable time.
 * Problem are treated as independent projects (with difference main functions).
+* when possible algorithms are written into reusable function since certain concept repeat in some problems.
   
