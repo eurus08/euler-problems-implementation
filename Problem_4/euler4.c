@@ -32,7 +32,8 @@ return 0;
 }
 
 
-int reverse(int number){
+// Subroutines
+int reverse(int number){ //function to reverse a number
     // Declare variables
     int lastDigit, rev;
     rev = 0;

@@ -9,15 +9,15 @@ What is the largest prime factor of the number 600851475143?
 ### Solution
 To find the prime factors of a number, N, we divide the N by the smallest divisible prime number  we it becomes 1. The prime factor are the prime number that divided N counting the number of times they divided N.
 
-*Note that since every will be dividing N continually dividing by its smallest prime factors till we find the largest and final. We need no explicity find Prime Number to divided it since every composite number can also be expressed by a product of prime number, the every composite number that divise the number would already be divided out*
+*Note that since every will be dividing N continually dividing by its smallest prime factors till we find the largest and final. We need no explicitly find Prime Number to divided it since every composite number can also be expressed by a product of prime number, the every composite number that divides the number would already be divided out*
 
-#### Algorithm: Finding the Largest Prime Factor of a nutaral number
+#### Algorithm: Finding the Largest Prime Factor of a natural number
 
 **Input:** Natural number (`N`)  
 **Output:** The largest prime factor of `N`.
 
 #### Steps:
-1. Initialise:
+1. initialize:
    - `N ← 600851475143`
    - `Largest_pf` (to store the largest prime factor)
 2. While `N` is divisible by `2`, do:

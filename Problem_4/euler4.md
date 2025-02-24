@@ -20,7 +20,7 @@ TO find the reverse of a number, we use the modulo operator and the with base 10
 **Output:** The reverse of `number`
 
 #### Steps:
-1. Initialise:
+1. initialize:
    - `rev ← 0` (stores the reversed number)
 2. While `number > 0`, do:
    - Extract the last digit: `lastDigit ← number % 10`
@@ -36,7 +36,7 @@ TO find the reverse of a number, we use the modulo operator and the with base 10
 **Output:** The largest palindromic product of two 3-digit numbers 
 
 #### Steps:
-1. Initialise:
+1. initialize:
    - `largest_palindrome ← 0` (stores the largest palindrome found)
    - `prod` (stores the product of two numbers)
 2. For `i` from `500` to `999`, do:
