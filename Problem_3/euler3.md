@@ -11,12 +11,12 @@ To find the prime factors of a number, N, we divide the N by the smallest divisi
 
 *Note that since every will be dividing N continually dividing by its smallest prime factors till we find the largest and final. We need no explicity find Prime Number to divided it since every composite number can also be expressed by a product of prime number, the every composite number that divise the number would already be divided out*
 
-## Algorithm: Finding the Largest Prime Factor of 600851475143
+#### Algorithm: Finding the Largest Prime Factor of a nutaral number
 
 **Input:** Natural number (`N`)  
 **Output:** The largest prime factor of `N`.
 
-### Steps:
+#### Steps:
 1. Initialise:
    - `N ← 600851475143`
    - `Largest_pf` (to store the largest prime factor)
