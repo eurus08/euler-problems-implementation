@@ -9,7 +9,7 @@ What is the largest prime factor of the number 600851475143?
 ### Solution
 To find the prime factors of a number, N, we divide the N by the smallest divisible prime number  we it becomes 1. The prime factor are the prime number that divided N counting the number of times they divided N.
 
-*Note that since every will be dividing N continually dividing by its smallest prime factors till we find the largest and final. We need no explicitly find Prime Number to divided it since every composite number can also be expressed by a product of prime number, the every composite number that divides the number would already be divided out*
+*Note that we will be dividing N continually by its smallest prime factors till we find the largest and final. We need not explicitly find Prime Numbers to divided it since every composite number can also be expressed by a product of prime number, that is every composite number that divides N would already be divided out*
 
 #### Algorithm: Finding the Largest Prime Factor of a natural number
 
