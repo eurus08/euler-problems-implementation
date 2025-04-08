@@ -1,7 +1,7 @@
 /* ######### euler5.c #########
 Author: eurus
 Date: April 02, 2025
-Description: C implementation of Euler problem 4
+Description: C implementation of Euler problem 5
 What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20'?
 */
 
@@ -9,24 +9,23 @@ What is the smallest positive number that is evenly divisible by all of the numb
 // Headers
 #include <stdio.h>
 
-// Macros
-
-
 // Prototypes
 int GCD(int a, int b);
 int LCM(long a, int b);
 
 
-// Main functions
+// Main function
 int main(int argc, char *argv[]){
 
-    // initialize lcm to 1
+    // Intialize varibales
     long lcm = 1;
 
+    // finding lcm of 1 through 20
     for (int i = 1; i < 21; i++){
-        lcm = LCM(lcm, i);
+        lcm = LCM(lcm, i); 
     }
 
+    // Output results 
     printf("The smallest multiple of 1 through 20 is %d\n", lcm);
 
 return 0;
